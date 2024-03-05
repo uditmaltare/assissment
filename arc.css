@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+}
+body{
+    background-color: black;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    align-items: center;
+}
+#logolink{
+    display: flex;
+    align-items: center;
+}
+#logolink h1{
+    margin-right: 10px;
+}
+ a{
+    margin: 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: black;
+    padding: 5px 10px;
+    transition: all 1s;
+}
+a:hover{
+    color: white;
+    border-radius: 50px;
+    background-color: blanchedalmond;
+}
+section{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+section h1{
+    font-size: 46pt;
+}
+.grad{
+    background-image: linear-gradient( to right, aqua, blue,red,purple,yellow,brown,pink) ;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
