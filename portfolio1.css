@@ -20,7 +20,7 @@ header{
  padding: 10px;
  transition: all 1s;
 }
-a:hover{
+ #logolink a:hover{
     color: black;
     background-color: blue;
     border-radius: 50%;
@@ -71,6 +71,26 @@ section{
 }
 #a{
     justify-content: space-around;
+}
+#link{
+   
+    margin-top: 20px;
+}
+#link a{
+    margin: 30px;
+    text-decoration: none;
+    font-size: 18pt;
+    margin-top: 20px;
+}
+.im{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20px;
+}
+#ra{
+    color: black;
+    font-size: larger;
 }
 
 

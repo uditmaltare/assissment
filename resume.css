@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+.up{
+   margin-left: 40px;
+   margin-top: 40px;
+}
+.sum{
+    display: flex;
+}
+.name{
+    width: 600px;
+    margin: 50px;
+    align-items: center;
+    
+} 
+#abc{
+    margin-bottom: 70px;
+}
+.line{
+    background-color: #ffc001;
+    border: solid thin #efb814;
+    border-radius: 10px;
+    width: auto;
+    height: 7px;
+    margin-top: 60px;
+}
+.line1{
+    background-color: #ffc001;
+    border: solid thin #efb814;
+    border-radius: 10px;
+    width: auto;
+    height: 7px;
+    margin-top: 100px;
+}
+#ran{
+    display: flex;
+    justify-content: space-between;
+}

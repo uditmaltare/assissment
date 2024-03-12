@@ -1,0 +1,206 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+aside{
+	border:0px solid red;
+height:800px;
+	display:flex;
+	flex-direction:column;
+}
+.sidebar{
+	width:423px;
+	border:0px solid grey;
+	height:100vh;
+	margin-left:30px;
+	background:white;
+}
+	
+.sidebar:hover
+{
+	overflow-y:auto;
+}
+
+.side{
+	border:0px solid black;
+	display:flex;
+	justify-content:space-between;
+	border-right:1px solid grey;
+	height:50px;
+	align-items:center;
+	background:#f0f2f5;
+	padding:10px 16px;
+}
+.side img{
+	border-radius:40px;
+	padding:2px 10px;
+}
+.side i{
+	padding:2px 10px;
+}
+	.outer{
+		border:0px solid grey;
+		padding:10px 16px;
+		display:flex;
+		height:30px;
+		border-top:none;
+		border-left:none;
+		border-right:none;
+		
+	}
+	.outer input{
+		padding:0 32px 0 65px;
+		height:40px;
+		width:250px;
+		border:1px solid grey;
+height:30px;
+background:#f0f2f5;
+border-radius:.5rem;
+margin-right:10px;
+border:none;
+	}
+	.inner{
+	display:flex;
+		border-right:none;
+		
+}
+.inner i{
+	position:absolute;
+	left:60px;
+	top:88px;
+}
+	
+	.fil{
+		display:flex;
+		justify-content:center;
+		align-items:center;
+	}
+	.fil i{
+		
+		font-size:25px;
+		color:grey;
+	}
+	.box {
+		border:0px solid grey;
+display:flex;
+height:70px;
+margin-bottom:0px;
+
+
+align-items:center;
+	}
+	.box:hover{
+	transition:translate(400px);
+	cursor:pointer;
+	background:#f0f2f5;
+	position:static;
+	
+		}
+	.box_logo img{
+		border-radius:20px;
+		width:40px;
+	padding-left:5px;
+	border-top:none;
+	margin-left:10px;
+	}
+	.box_text h1{
+		padding:0 40px;
+		font-size:25px;
+	}
+	.inner_box_text{
+		display:flex;
+		justify-content:space-between;
+		align-items:center;
+		border:1px solid #eee;
+		width:340px;
+		height:34px;
+		border-right:none;
+		border-bottom:none;border-left:none;
+		margin-bottom:10px;
+	}
+	.inner_box_text p{
+		color:grey;
+	}
+	.chack{
+		border:0px solid grey;
+		border-top:none;
+		border-left:none;
+		border-right:none;
+		padding-left:20px;
+		display:flex;
+		align-items:center;
+		height:20px;
+	}
+	.same{
+		border:1px solid red;
+		display:flex;
+		background:#f0f2f5;
+	}
+	
+	
+	
+	.whatsap_head{
+		display:flex;
+		justify-content: space-between;
+		border:0px solid grey;
+		align-items:center;
+		text-align:center;
+		width:900px;
+		padding:10px 20px;
+		height:50px;
+		background: #f0f2f5;
+		border-bottom:1px solid #e9edef;
+	}
+	.whatsap_left{
+		display:flex;
+		justify-content: center;
+		align-items: center;
+		
+		
+	}
+	.whatsap_left img{
+		height:40px;
+		border-radius:40px;
+		
+	}
+	.whatsap_left p
+	{
+		font-size: 20px;
+		margin-left:15px;
+	}
+	.whatsap_right i {
+		padding:0 10px;
+		color:grey;
+	}
+		.ddd{
+			display: flex;
+			justify-content: space-between;
+			padding:10px 20px;
+		}
+		.ddd_center input{
+			padding:10px 30px;
+			border-radius:.5rem;
+			width:800px;
+		}
+	.ddd_center i{
+		position:absolute;
+		top:500px
+	}
+	.box:hover{
+		transform: scale(1.1);
+	}
+	.box{
+		transition: all 1s;
+	}
+		
+		
+			
+		
+	
+	
+	
+	
+	
+	
+	
