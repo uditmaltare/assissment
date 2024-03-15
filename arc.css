@@ -141,15 +141,16 @@ align-items:center;
 .video video{
 	height:600px;
 }
-.text_feild h1{
-	border:5px solid purple;
-	border-image:linear gradient(to right,blue,red);
-	height:1px;
-	border-left:none;
-	border-right:none;
-	border-bottom:none;
-	width:50px;
-	padding:10px 20px;
+
+#li{
+	border: solid thin rgb(189,0,255);
+	height: 2px;
+	width: 120px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	background-color: rgb(189,0,255);
+	border-radius: 10px;
+	background-image: linear-gradient(to right)
 }
 .text_feild{
 	display:flex;

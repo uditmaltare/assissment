@@ -33,9 +33,9 @@ header{
 section{
     display: flex;
     align-items: flex-start;
-    height: 400pt;
+    height: 300pt;
     flex-direction: row;
-    margin: 100px;
+    margin: 40px;
     justify-content: space-between  ;
 
 }
@@ -90,9 +90,159 @@ section{
     align-items: center;
     margin-left: 20px;
 }
-#ra{
-    color: black;
-    font-size: larger;
+#e{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#linear{
+    margin-top: 6px;
+    margin-left: 2px;
+    width: 900px;
+    height: 3px;
+    background-image: linear-gradient(to right, purple, deeppink, rgba(255, 255,255,0.1));
+}
+.deg{
+    width: 110px;
+    margin-top: 50px;
+    margin-left: 250px;
+
+}
+#fl{
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.bo{
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    border: solid thin black;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 5px 2px grey;
+    border-bottom: solid thick blue;
+}
+.bo:hover{
+    box-shadow: 10px 10px 3px 1px lightgray;
+}
+.cen{
+   margin-left: 70px;
+   margin-top: 15px;
+}
+.jen{
+    margin-top: 40px;
+text-align: center;
+}
+#dhor{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bo1{
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    border: solid thin black;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 5px 2px grey;
+    border-bottom: solid thick yellow;
+}
+.bo1:hover:hover{
+    box-shadow: 10px 10px 3px 1px lightgray;
+}
+.bo2{
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    border: solid thin black;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 5px 2px grey;
+    border-bottom: solid thick red;
+}
+.bo2:hover{
+    box-shadow: 10px 10px 3px 1px lightgray;
+}
+.bo3{
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    border: solid thin black;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 5px 2px grey;
+    border-bottom: solid thick teal;
+}
+.bo3:hover{
+    box-shadow: 10px 10px 3px 1px lightgray;
+}
+.line1{
+    position: relative;
+    height: 5px;
+    width: 300px;
+    background: grey;
+    display: block;
+}
+#color{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 75%;
+    background:blue ;
+}
+#color1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 85%;
+    background:yellow ;
+}
+#color2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 70%;
+    background:teal ;
+}
+#color3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 60%;
+    background:red ;
+}
+#color4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 90%;
+    background:purple;
+}
+#color5{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 80%;
+    background:darkblue;
+}
+#percent{
+    display: flex;
+   margin-top: 50px;
+}
+#photo{
+    margin-left: 200px;
+}
+#css{
+    margin-left: 30px;
 }
 
 

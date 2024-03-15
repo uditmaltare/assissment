@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+}
+
+
+#im{
+  background-color: lightblue;
+    height: 160px;
+}
+#tx{
+    display: flex;
+    justify-content: center;
+   
+    background-color: rgba(240, 255, 255, 0.068);
+    
+}
+#info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    background-color: plum;
+   
+    height: 45px;
+
+}
+#info a{
+    text-decoration: none;
+    font-size: 12pt;
+    color: black;
+
+
+}
+
+ a:hover{
+color: black;
+background-color: white;
+border-radius: 30%;
+height: 25px;
+transition: all 1s;
+}
+.active{
+border-bottom: solid thick blue;
+border-radius: 5px;
+}
+#ge{
+    margin-top: 15px;
+   margin-left: 150px;
+    
+}
+#sh{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 2px 1px silver;
+    margin: 20px;
+
+}
+.grad{
+    background-image: linear-gradient(to right, purple, pink,blue);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#g{
+   margin: 10px;
+   text-align: justify;
+    
+}
+#da{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+}
+#pri{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    background-color: azure;
+    box-shadow: 10px 10px 3px 1px lightgray;
+ transition: all 1s;
+}
+#din{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    background-color: slateblue;
+    box-shadow: 10px 10px 3px 1px lightgray;
+ transition: all 1s;
+}
+#din:hover{
+    transform: scale(1.1);
+}
+#pri:hover{
+    transform: scale(1.1);
+}
+#mid{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+    background-color: pink;
+    transition: all 1s;
+    box-shadow: 10px 10px 3px 1px lightgray;
+}
+#mid:hover{
+    transform: scale(1.1);
+}
+#mc{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+    background-color: silver;
+    transition: all 1s;
+    box-shadow: 10px 10px 3px 1px lightgray;
+}
+#mc:hover{
+    transform: scale(1.1);
+}
+#mi{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+    background-color:  lightsalmon;
+    transition: all 1s; 
+    box-shadow: 10px 10px 3px 1px lightgray;
+}
+#mi:hover{
+    transform: scale(1.1);
+}
+#m{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+    background-color: lightgoldenrodyellow;
+    transition: all 1s; 
+    box-shadow: 10px 10px 3px 1px lightgray;
+}
+#m:hover{
+    transform: scale(1.1);
+}
+#electro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+    background-color: lightcyan;
+    transition: all 1s; 
+    box-shadow: 10px 10px 3px 1px lightgray;
+}
+#electro:hover{
+    transform: scale(1.1);
+}
+#mechanic{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+    background-color: beige;
+    transition: all 1s; 
+    box-shadow: 10px 10px 3px 1px lightgray;
+}
+#mechanic:hover{
+    transform: scale(1.1);
+}
+#train{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+    background-color: peachpuff;
+    transition: all 1s; 
+    box-shadow: 10px 10px 3px 1px lightgray;
+}
+#train:hover{
+    transform: scale(1.1);
+}
+#dep{
+    margin-left: 10px;
+}
+#achieve{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+    background-color: cornsilk;
+}
+#achieve1{
+    display: flex;
+    justify-content: space-around;
+}
+#add{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ga{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+#tab{
+    font-size: 18pt;
+    margin: 20px;
+    margin-top: 20px;
+    margin-left: 360px;
+    text-align: center;
+    
+}
+table{
+    width: 600px;
+    height: 500px;
+    background-color: azure;
+    
+}
+.cou{
+    border: solid thin black;
+width: 250px ;
+height: 200px; 
+text-align: center;
+box-shadow: 10px 10px 3px 1px lightgray;
+background-color: lightcoral;
+transition: all 1s; 
+}
+.cou:hover{
+    transform: scale(1.1);
+
+}
+#c{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin: 40px;
+margin-top: 70px;
+
+}
+#d{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 40px;
+    margin-top: 70px;
+}
+#deep{
+    background-color: whitesmoke;
+}
